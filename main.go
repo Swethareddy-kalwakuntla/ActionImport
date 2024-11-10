@@ -7,5 +7,6 @@ func main(){
 	fmt.Println("sum is ",val)
 }
 func sum(a int, b int )int{
+	fmt.Println("hello")
 	return a+b
 }
