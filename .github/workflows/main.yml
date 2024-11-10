@@ -9,4 +9,4 @@ jobs:
           curl -X POST https://api.github.com/repos/swethareddy-kalwakuntla/Go-Github/dispatches \
           -H "Accept: application/vnd.github.everest-preview+json" \
           -u ${{ secrets.PERSONAL_ACCESS_TOKEN }} \
-          --data '{"event_type": "dispatch-event", "client_payload": {}}'
+          --data '{"event_type": "dispatch-event", "client_payload": {"repository": "swethareddy-kalwakuntla/ActionImport", "branch": "main"}}'
